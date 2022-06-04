@@ -16,16 +16,16 @@ body {
   background: radial-gradient(
     circle,
     rgba(238, 174, 202, 1) 0%,
-    rgba(148, 187, 233, 1) 100%
+    rgb(235, 241, 147) 100%
   );
 }
 /*custom scrollbar*/
 ::-webkit-scrollbar {
   width: 6px;
-  background: #acb7e1;
+  background: #7ccf87;
 }
 ::-webkit-scrollbar-thumb {
-  background: #4577af;
+  background: #82eb8b;
   border-radius: 10px;
 }
 .flex-row {
@@ -54,10 +54,10 @@ body {
     transform: rotate(0deg);
   }
   10% {
-    transform: rotate(14deg);
+    transform: rotate(20deg);
   } /* The following five values can be played with to make the waving more or less extreme */
   20% {
-    transform: rotate(-8deg);
+    transform: rotate(-10deg);
   }
   30% {
     transform: rotate(14deg);
@@ -115,7 +115,7 @@ section {
   width: calc(100% - 100px);
   min-height: calc(100vh - 280px);
   min-height: 300px;
-  background: rgba(255, 255, 255, 0.5);
+  background: rgba(236, 161, 161, 0.5);
   box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.05);
   border-radius: 1rem;
   display: flex;
@@ -632,7 +632,7 @@ header ul li a.active {
 }
 
 .highlight-yellow-brush {
-  background: url(/assets/yellow-brushstroke.png);
+  background: url(/assets/giphy.gif);
   background-repeat: no-repeat;
   background-size: 100% 95%;
   padding: 8px 0;
